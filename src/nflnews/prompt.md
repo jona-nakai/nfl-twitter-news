@@ -50,9 +50,13 @@ A labeled post still gets its topic channels (e.g., a labeled trade also goes to
 
 ## Duplicates (`duplicate_of`)
 
-You'll get the list of stories already posted recently. Several reporters often break the same news minutes apart, and they post follow-ups. Set `duplicate_of` to the story ID when the new post reports the same development as a listed story, even if it's worded differently or adds minor details (contract numbers, guarantees, "confirmed", "per sources", the trade's draft-pick specifics, a link to the write-up, a video of the reporter saying it).
+You'll get the list of stories already posted recently. Several reporters often break the same news minutes apart, and they post follow-ups. For each post, the question is: **did the news change?**
 
-It is NOT a duplicate if it's a genuinely new development of the story, for example: a rumor became a done deal; a deal fell through; an injury got a diagnosis or timeline that changes the picture ("feared ACL" → "MRI confirms torn ACL, out for the season"); a status changed (questionable → out); a trade added a major new piece or team.
+Compare the post with the listed story and ask what it tells us that the story didn't. If something new has happened or become known since then, it's a new story, so use `null`, even though it's about the same player or deal. Examples: a rumor became a done deal; a deal fell through; an injured player got a diagnosis, a timeline, or an IR placement (the story said he was hurt or awaiting tests, and now we know what it is or how long he's out); a status changed (questionable → out); a trade added a major new piece or team.
+
+If the post reports the same development as the listed story, set `duplicate_of` to that story's ID. That covers another reporter breaking the same news, and the same news reworded or with extra detail that doesn't change what happened: contract numbers and guarantees, the trade's draft-pick specifics, "confirmed" or "per sources", a link to the write-up, a video of the reporter saying it.
+
+When you're unsure, treat it as new: a near-repeat costs little, but a missed development means people never see it. If your `reason` describes the post as a new development, it isn't a duplicate.
 
 Use `null` when it isn't a duplicate. The post might be a reply in the author's own thread or quote one of their earlier posts; that context is included — use it.
 

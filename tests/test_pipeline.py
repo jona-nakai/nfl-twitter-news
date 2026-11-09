@@ -336,7 +336,7 @@ async def test_image_sent_only_without_a_text_label_and_dropped_if_unreadable():
 async def test_labeled_repeat_upgrades_an_unlabeled_story_once(store):
     classifier = FakeClassifier(
         decision(categories=["transactions"], headline="Broncos trade for Waddle"),
-        decision(duplicate_of=1, breaking_label=True, categories=["transactions"]),
+        decision(duplicate_of=1, breaking_label=True, categories=["transactions"], headline="Waddle"),
         decision(duplicate_of=1, breaking_label=True, categories=["transactions"]),
         decision(duplicate_of=1, categories=["transactions"]),
     )
@@ -353,6 +353,6 @@ async def test_labeled_repeat_upgrades_an_unlabeled_story_once(store):
     assert again.outcome == DUPLICATE and plain.outcome == DUPLICATE
     post = publisher.posts[1]
     assert post.channels == ["breaking"] and post.already_posted == ("transactions", "all-news")
-    assert post.headline == "Broncos trade for Waddle" and post.tweet.id == "2"
+    assert post.headline == "Waddle" and post.tweet.id == "2"
     assert (await store.get_story(1)).channels == ("breaking", "transactions", "all-news")
     assert len(publisher.posts) == 2

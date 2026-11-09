@@ -658,5 +658,25 @@
       []
     ],
     "note": "Real post (Nov 7, 2026). 'blockbuster offer' is a hypothetical, not a label; misclassified as breaking before."
+  },
+  {
+    "id": "injury-diagnosis-after-mri-pending",
+    "author": "RapSheet",
+    "text": "The #Rams are expected to place WR Puka Nacua on Injured Reserve with MCL and PCL sprains, sources say.",
+    "stories": [
+      {
+        "id": 265,
+        "minutes_ago": 1300,
+        "author": "AdamSchefter",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Puka Nacua injures knee; MRI scheduled for Monday"
+      }
+    ],
+    "expect": [
+      "injuries"
+    ],
+    "note": "Real post (Nov 9, 2026), shortened. Diagnosis + IR after 'MRI scheduled' is a new development, not a duplicate; was marked duplicate before."
   }
 ]

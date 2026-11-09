@@ -164,7 +164,8 @@ class Pipeline:
         story = await self._store.get_story(decision.duplicate_of)
         if story is None or BREAKING in story.channels:
             return None
-        post = StoryPost(story.id, tweet, [BREAKING], True, story.headline, story.channels)
+        # Title it with this post's headline: it's this post's text that gets shown.
+        post = StoryPost(story.id, tweet, [BREAKING], True, decision.headline, story.channels)
         try:
             messages = await self._publisher.publish(post)
         except Exception:

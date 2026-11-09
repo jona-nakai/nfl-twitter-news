@@ -1,0 +1,43 @@
+[project]
+name = "nflnews"
+version = "0.1.0"
+description = "Discord bot that relays NFL news from trusted X reporters, routed by an LLM"
+authors = [
+    { name = "jona-nakai", email = "jonanakai.dev@gmail.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiosqlite>=0.22",
+    "anthropic>=2.3.0",
+    "discord-py>=2.7",
+    "httpx>=0.28",
+    "openai>=3.41",
+    "pydantic>=2.14",
+    "python-dotenv>=1.0",
+]
+
+[project.scripts]
+nflnews = "nflnews:main"
+
+[build-system]
+requires = ["uv_build>=0.11.16,<0.12.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1",
+]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+asyncio_default_fixture_loop_scope = "function"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B", "UP", "I"]
+ignore = ["E501"]  # the formatter wraps code; long strings are fine

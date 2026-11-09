@@ -1,0 +1,662 @@
+[
+  {
+    "id": "trade-starter-first-round",
+    "author": "AdamSchefter",
+    "text": "Trade: The Bengals are trading WR Tee Higgins to the Chiefs for a 2027 first-round pick and a 2027 fourth-round pick, sources tell ESPN.",
+    "expect": [
+      "transactions"
+    ],
+    "label": false
+  },
+  {
+    "id": "head-coach-fired",
+    "author": "RapSheet",
+    "text": "The #Raiders have fired head coach Pete Carroll, sources say. A stunning midseason move with Las Vegas sitting at 2-6.",
+    "expect": [
+      "transactions"
+    ],
+    "also_ok": [
+      [
+        "breaking",
+        "transactions"
+      ]
+    ],
+    "note": "\"A stunning midseason move\" is borderline breaking wording; either call is fine."
+  },
+  {
+    "id": "qb-record-extension",
+    "author": "AdamSchefter",
+    "text": "Ravens and QB Lamar Jackson reached agreement on a five-year, $312 million extension that includes $250 million guaranteed, making him the NFL's highest-paid player, sources tell ESPN.",
+    "expect": [
+      "transactions"
+    ],
+    "label": false
+  },
+  {
+    "id": "star-achilles",
+    "author": "MikeGarafolo",
+    "text": "#Vikings WR Justin Jefferson suffered a torn Achilles at practice today, source said. His season is over.",
+    "expect": [
+      "injuries"
+    ],
+    "label": false
+  },
+  {
+    "id": "star-trade-request",
+    "author": "AdamSchefter",
+    "text": "Cowboys WR CeeDee Lamb has formally requested a trade, sources tell ESPN. Lamb's agent informed the team this morning.",
+    "expect": [
+      "rumors"
+    ],
+    "note": "The prompt lists trade requests under rumors, and a superstar's formal request as breaking.",
+    "label": false
+  },
+  {
+    "id": "star-suspension",
+    "author": "Schultz_Report",
+    "text": "Breaking: The NFL has suspended Browns DE Myles Garrett six games for violating the personal conduct policy, sources tell me.",
+    "expect": [
+      "breaking",
+      "discipline"
+    ],
+    "note": "No topic channel clearly covers suspensions."
+  },
+  {
+    "id": "kicker-signing",
+    "author": "MikeGarafolo",
+    "text": "Free agent K Brandon McManus is signing with the #Packers, source says.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "waiver-claim",
+    "author": "TomPelissero",
+    "text": "The #Browns claimed WR Jalen Tolbert off waivers from the Cowboys, per the wire.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "mid-tier-trade",
+    "author": "AdamSchefter",
+    "text": "Trade: Saints are trading TE Juwan Johnson to the Lions for a 2027 sixth-round pick, sources tell ESPN.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "coordinator-fired",
+    "author": "RapSheet",
+    "text": "The #Jaguars have fired defensive coordinator Anthony Campanile, sources say.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "veteran-release",
+    "author": "MikeGarafolo",
+    "text": "The #Titans are releasing veteran WR Tyler Lockett, source says.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "veteran-signing-not-breaking",
+    "author": "RapSheet",
+    "text": "The #Bears are signing veteran pass rusher Za'Darius Smith to a one-year deal, sources say. Adds a needed edge presence for the stretch run.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "starter-ruled-out",
+    "author": "TomPelissero",
+    "text": "#Chargers RB Omarion Hampton (ankle) has been ruled out for Sunday's game against the Titans.",
+    "expect": [
+      "injuries"
+    ]
+  },
+  {
+    "id": "week-to-week",
+    "author": "RapSheet",
+    "text": "#Commanders WR Terry McLaurin has a high-ankle sprain and is considered week-to-week, sources say. Could miss 2-4 games.",
+    "expect": [
+      "injuries"
+    ]
+  },
+  {
+    "id": "ir-placement",
+    "author": "MikeGarafolo",
+    "text": "The #Rams are placing OT Rob Havenstein on IR with an ankle injury. He'll miss at least four games.",
+    "expect": [
+      "injuries"
+    ],
+    "note": "Injury-driven roster moves go to injuries, not transactions."
+  },
+  {
+    "id": "return-to-practice",
+    "author": "Schultz_Report",
+    "text": "#Ravens TE Mark Andrews (calf) returned to practice today as a full participant and is on track to play Sunday.",
+    "expect": [
+      "injuries"
+    ]
+  },
+  {
+    "id": "deep-backup-practice-report",
+    "author": "TomPelissero",
+    "text": "#Panthers practice report — DNP: LS JJ Jansen (rest), DB Akayleb Evans (illness). Limited: OL Chandler Zavala (ankle).",
+    "expect": [
+      "injuries"
+    ],
+    "note": "Every injury post goes to #injuries, however minor."
+  },
+  {
+    "id": "trade-talks",
+    "author": "AdamSchefter",
+    "text": "The Jets are fielding calls on DL Quinnen Williams ahead of next Tuesday's trade deadline, and at least three teams have shown interest, sources tell ESPN.",
+    "expect": [
+      "rumors"
+    ]
+  },
+  {
+    "id": "star-rumor-not-breaking",
+    "author": "JFowlerESPN",
+    "text": "Some teams believe the #Browns would consider trading DE Myles Garrett before the deadline if the right offer came, per sources. Cleveland has not shopped him.",
+    "expect": [
+      "rumors"
+    ]
+  },
+  {
+    "id": "exploring-trade",
+    "author": "JFowlerESPN",
+    "text": "The #Raiders are exploring a trade for Jaguars WR Brian Thomas Jr., though Jacksonville has no plans to move him, per sources.",
+    "expect": [
+      "rumors"
+    ]
+  },
+  {
+    "id": "free-agent-visit",
+    "author": "MikeGarafolo",
+    "text": "Free agent CB Stephon Gilmore is visiting the #Lions today, source says.",
+    "expect": [
+      "rumors"
+    ]
+  },
+  {
+    "id": "show-promo",
+    "author": "AdamSchefter",
+    "text": "Join me tonight at 7 ET on SportsCenter as we break down everything ahead of the trade deadline 🏈",
+    "expect": []
+  },
+  {
+    "id": "stat-line",
+    "author": "RapSheet",
+    "text": "Ja'Marr Chase last night: 11 catches, 189 yards, 2 TDs. Unreal.",
+    "expect": []
+  },
+  {
+    "id": "opinion",
+    "author": "JFowlerESPN",
+    "text": "Feels like the AFC North race is going to come down to the final week again. That Ravens defense has turned a corner.",
+    "expect": []
+  },
+  {
+    "id": "article-link",
+    "author": "TomPelissero",
+    "text": "My story on how the Lions rebuilt their secondary on the fly: https://www.nfl.com/news/lions-secondary-rebuild",
+    "expect": []
+  },
+  {
+    "id": "practice-squad-shuffle",
+    "author": "MikeGarafolo",
+    "text": "The #Colts signed DT Jamal Woods to their practice squad and released LB Cameron McGrone from the practice squad.",
+    "expect": [
+      "transactions"
+    ],
+    "note": "Every transaction goes to #transactions, however minor."
+  },
+  {
+    "id": "dup-same-trade",
+    "author": "RapSheet",
+    "text": "The #Bengals are sending WR Tee Higgins to the #Chiefs, per me and @TomPelissero. KC gives up a 2027 1st and more.",
+    "stories": [
+      {
+        "id": 7,
+        "minutes_ago": 6,
+        "author": "AdamSchefter",
+        "channels": [
+          "breaking",
+          "transactions"
+        ],
+        "headline": "Bengals trade Tee Higgins to Chiefs for first-round pick"
+      }
+    ],
+    "expect": [],
+    "duplicate_of": 7
+  },
+  {
+    "id": "dup-contract-details",
+    "author": "TomPelissero",
+    "text": "Lamar Jackson's deal with the #Ravens: 5 years, $312M, $250M fully guaranteed at signing, $85M signing bonus, no-trade clause. Record guarantees.",
+    "stories": [
+      {
+        "id": 11,
+        "minutes_ago": 50,
+        "author": "RapSheet",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Commanders' Terry McLaurin week-to-week with high-ankle sprain"
+      },
+      {
+        "id": 12,
+        "minutes_ago": 20,
+        "author": "AdamSchefter",
+        "channels": [
+          "breaking",
+          "transactions"
+        ],
+        "headline": "Ravens sign Lamar Jackson to five-year, $312M extension"
+      }
+    ],
+    "expect": [],
+    "duplicate_of": 12
+  },
+  {
+    "id": "dup-same-injury-status",
+    "author": "MikeGarafolo",
+    "text": "#Chargers say RB Omarion Hampton is OUT on Sunday.",
+    "stories": [
+      {
+        "id": 30,
+        "minutes_ago": 40,
+        "author": "TomPelissero",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Chargers RB Omarion Hampton ruled out vs. Titans with ankle injury"
+      }
+    ],
+    "expect": [],
+    "duplicate_of": 30
+  },
+  {
+    "id": "dup-quote-official",
+    "author": "RapSheet",
+    "text": "Official.",
+    "quoted": "The Las Vegas Raiders have relieved Pete Carroll of his duties as head coach.",
+    "stories": [
+      {
+        "id": 50,
+        "minutes_ago": 10,
+        "author": "RapSheet",
+        "channels": [
+          "breaking",
+          "transactions"
+        ],
+        "headline": "Raiders fire head coach Pete Carroll"
+      }
+    ],
+    "expect": [],
+    "duplicate_of": 50
+  },
+  {
+    "id": "thread-follow-up-detail",
+    "author": "AdamSchefter",
+    "text": "Johnson had two years left on his deal, and Detroit needed TE depth after Sam LaPorta's injury.",
+    "parent": "Trade: Saints are trading TE Juwan Johnson to the Lions for a 2027 sixth-round pick, sources tell ESPN.",
+    "stories": [
+      {
+        "id": 44,
+        "minutes_ago": 3,
+        "author": "AdamSchefter",
+        "channels": [
+          "transactions"
+        ],
+        "headline": "Saints trade TE Juwan Johnson to Lions for sixth-round pick"
+      }
+    ],
+    "expect": [],
+    "note": "Either a duplicate of 44 or not news is fine; it just mustn't be posted."
+  },
+  {
+    "id": "new-dev-mri-confirms",
+    "author": "AdamSchefter",
+    "text": "MRI confirmed that Bills QB Josh Allen suffered a torn ACL and will miss the rest of the season, sources tell ESPN.",
+    "stories": [
+      {
+        "id": 3,
+        "minutes_ago": 1080,
+        "author": "RapSheet",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Bills QB Josh Allen leaves game with knee injury, ACL tear feared"
+      }
+    ],
+    "expect": [
+      "injuries"
+    ],
+    "label": false
+  },
+  {
+    "id": "new-dev-rumor-to-trade",
+    "author": "RapSheet",
+    "text": "Trade: The #Jets are trading DL Quinnen Williams to the #Eagles for a 2027 second-round pick and a 2028 fifth, sources say.",
+    "stories": [
+      {
+        "id": 21,
+        "minutes_ago": 1560,
+        "author": "AdamSchefter",
+        "channels": [
+          "rumors"
+        ],
+        "headline": "Jets fielding calls on Quinnen Williams ahead of trade deadline"
+      }
+    ],
+    "expect": [
+      "transactions"
+    ],
+    "label": false
+  },
+  {
+    "id": "new-dev-status-change",
+    "author": "TomPelissero",
+    "text": "#Chargers RB Omarion Hampton (ankle) has been downgraded to out for Sunday.",
+    "stories": [
+      {
+        "id": 30,
+        "minutes_ago": 1440,
+        "author": "TomPelissero",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Chargers RB Omarion Hampton questionable vs. Titans with ankle injury"
+      }
+    ],
+    "expect": [
+      "injuries"
+    ]
+  },
+  {
+    "id": "star-short-injury-not-breaking",
+    "author": "RapSheet",
+    "text": "#Eagles RB Saquon Barkley (hamstring) is expected to miss 2-3 weeks, sources say.",
+    "expect": [
+      "injuries"
+    ],
+    "note": "Star player, but short-term: not breaking per the prompt."
+  },
+  {
+    "id": "star-practice-limited",
+    "author": "Schultz_Report",
+    "text": "#Bills QB Josh Allen (knee) was limited in practice today.",
+    "expect": [
+      "injuries"
+    ]
+  },
+  {
+    "id": "expected-to-sign-no-terms",
+    "author": "JFowlerESPN",
+    "text": "The #Steelers are expected to sign veteran QB Kirk Cousins once he's released by Atlanta, per sources.",
+    "expect": [
+      "rumors"
+    ],
+    "note": "'Expected to sign' without terms is a rumor per the prompt."
+  },
+  {
+    "id": "agreed-to-terms",
+    "author": "TomPelissero",
+    "text": "Free agent RB J.K. Dobbins agreed to terms with the #Broncos on a one-year, $3 million deal, per source.",
+    "expect": [
+      "transactions"
+    ]
+  },
+  {
+    "id": "coach-quote-no-news",
+    "author": "AdamSchefter",
+    "text": "Bills HC Sean McDermott on Josh Allen's knee: \"He's a tough guy. We'll see how the week goes.\" (video)",
+    "expect": [],
+    "stories": [
+      {
+        "id": 70,
+        "minutes_ago": 300,
+        "author": "Schultz_Report",
+        "channels": [
+          "injuries"
+        ],
+        "headline": "Bills QB Josh Allen limited in practice with knee injury"
+      }
+    ],
+    "note": "Adds nothing to the already-posted practice report."
+  },
+  {
+    "id": "deadline-reminder",
+    "author": "RapSheet",
+    "text": "Reminder: The NFL trade deadline is Tuesday at 4 p.m. ET. Buckle up.",
+    "expect": []
+  },
+  {
+    "id": "recap-old-trade",
+    "author": "AdamSchefter",
+    "text": "ICYMI: The Bengals traded Tee Higgins to the Chiefs last week. Here's what it means for both teams: https://es.pn/higgins-trade",
+    "expect": []
+  },
+  {
+    "id": "follow-up-team-response",
+    "author": "JFowlerESPN",
+    "text": "The #Cowboys have told teams they will not trade CeeDee Lamb despite his request, per sources.",
+    "stories": [
+      {
+        "id": 60,
+        "minutes_ago": 240,
+        "author": "AdamSchefter",
+        "channels": [
+          "breaking",
+          "rumors"
+        ],
+        "headline": "Cowboys WR CeeDee Lamb formally requests trade"
+      }
+    ],
+    "expect": [
+      "rumors"
+    ],
+    "also_ok": [
+      []
+    ],
+    "note": "A new development, but a follow-up: never breaking. Skipping it is acceptable."
+  },
+  {
+    "id": "interim-coach-follow-up",
+    "author": "RapSheet",
+    "text": "The #Raiders are naming DC Patrick Graham interim head coach, per sources.",
+    "stories": [
+      {
+        "id": 50,
+        "minutes_ago": 30,
+        "author": "RapSheet",
+        "channels": [
+          "breaking",
+          "transactions"
+        ],
+        "headline": "Raiders fire head coach Pete Carroll"
+      }
+    ],
+    "expect": [
+      "transactions"
+    ],
+    "also_ok": [
+      []
+    ],
+    "note": "Follow-up to the firing: not breaking. Skipping it is acceptable."
+  },
+  {
+    "id": "label-image-ringer-trade",
+    "author": "TomPelissero",
+    "text": "Trade! The Steelers and Cowboys are finalizing a deal sending CB Joey Porter Jr. to Dallas, sources tell @ringer @netflixsports.",
+    "image": "https://pbs.twimg.com/media/HTg2lhFWkAALN9F.jpg",
+    "label": true,
+    "expect": [
+      "breaking",
+      "transactions"
+    ],
+    "note": "Real post (Oct 1, 2026). The Ringer 'BREAKING' graphic makes it breaking."
+  },
+  {
+    "id": "label-image-espn-trade",
+    "author": "AdamSchefter",
+    "text": "ESPN sources: the Chicago Bears are working to finalize a trade that would send WR D.J. Moore to the Buffalo Bills. \n\nCompensation still is being discussed, and the trade cannot be processed until the new league year begins, but both sides are pushing to make it happen.",
+    "image": "https://pbs.twimg.com/media/HCqVACQWgAE69ko.jpg",
+    "label": true,
+    "expect": [
+      "breaking",
+      "transactions"
+    ],
+    "note": "Real post (Mar 5, 2026) with ESPN's BREAKING NEWS graphic.",
+    "also_ok": [
+      [
+        "breaking",
+        "rumors"
+      ]
+    ]
+  },
+  {
+    "id": "label-image-trade-request",
+    "author": "JFowlerESPN",
+    "text": "Sources: Colts WR Josh Downs is requesting a trade from Indianapolis.",
+    "image": "evals/images/josh-downs-fowler.png",
+    "label": true,
+    "expect": [
+      "breaking",
+      "rumors"
+    ],
+    "note": "Real post (Oct 2026), screenshot. A formal trade request is a real development, and the graphic says BREAKING NEWS."
+  },
+  {
+    "id": "label-image-on-rumor",
+    "author": "Schultz_Report",
+    "text": "Sources: The #Bears have had trade discussions involving DT Gervon Dexter, and there are multiple scenarios where a deal could get done sending him to a new team.\n\nDexter, still just 24 years old, started all 17 games last season and has 13.5 career sacks and 42 QB hits.",
+    "image": "https://pbs.twimg.com/media/HQl4OzfXgAIzrNL.jpg",
+    "label": true,
+    "expect": [
+      "breaking",
+      "rumors"
+    ],
+    "note": "BREAKING graphic on a rumor: wording decides, so it's breaking too."
+  },
+  {
+    "id": "image-developing-not-breaking",
+    "author": "Schultz_Report",
+    "text": "Sources: The #Bears will workout former #Titans DT Jordan Elliott next week.\n\nTennessee HC Robert Saleh has been an advocate for Elliott, who’s made 65 career starts while amassing 159 tackles, 11 TFLs and 5 sacks.",
+    "image": "evals/images/jordan-elliott-schultz.png",
+    "label": false,
+    "expect": [
+      "rumors"
+    ],
+    "note": "Real post (Nov 6, 2026), screenshot. Schultz's 'DEVELOPING' card isn't a breaking label; misclassified as breaking before."
+  },
+  {
+    "id": "label-text-bombshell",
+    "author": "AdamSchefter",
+    "text": "🚨🚨🚨\n\nBombshell: The Browns are finalizing a trade that will send two-time Defensive Player of the Year Myles Garrett to the Los Angeles Rams, per @rapsheet, @TomPelissero and me.\n\nIn exchange for Garrett, the Rams are expected to send Pro-Bowl edge Jared Verse, a 2027",
+    "image": "https://pbs.twimg.com/media/HJvpOPNXcAApH6q.jpg",
+    "label": true,
+    "expect": [
+      "breaking",
+      "transactions"
+    ],
+    "note": "Real post (Jun 1, 2026). Image only says TRADE; the text label carries it."
+  },
+  {
+    "id": "no-label-plain-blockbuster",
+    "author": "AdamSchefter",
+    "text": "Broncos are trading for Miami WR Jaylen Waddle, per source.\n\nDenver receives: Waddle and Dolphins’ 4th-round pick (11th in round) in this year’s draft.\n\nMiami receives: Broncos’ 1st round pick (30th overall) along with their late 3rd and 4th round picks (30th in each round) in",
+    "label": false,
+    "expect": [
+      "transactions"
+    ],
+    "note": "Huge news, but nobody labeled it: transactions only until a labeled report upgrades it."
+  },
+  {
+    "id": "label-upgrades-duplicate",
+    "author": "RapSheet",
+    "text": "Splash: The #Broncos are pulling off a post-free agency blockbuster by trading for #Dolphins star WR Jaylen Waddle, per me and @TomPelissero. Premium draft pick compensation is headed to Miami.",
+    "stories": [
+      {
+        "id": 80,
+        "minutes_ago": 3,
+        "author": "AdamSchefter",
+        "channels": [
+          "transactions"
+        ],
+        "headline": "Broncos trade first-round pick to Dolphins for WR Jaylen Waddle"
+      }
+    ],
+    "duplicate_of": 80,
+    "label": true,
+    "expect": [],
+    "note": "Real post (Mar 17, 2026). Same trade as story 80, so a duplicate, but labeled: the bot upgrades story 80 to breaking."
+  },
+  {
+    "id": "label-word-not-a-label",
+    "author": "RapSheet",
+    "text": "Breaking down the film on Caleb Williams' three interceptions Sunday, and what the #Bears need to fix before Monday night. Full video on @NFLonPrime.",
+    "label": false,
+    "expect": [],
+    "note": "'Breaking down the film' isn't a label; it's a show plug."
+  },
+  {
+    "id": "discipline-fine",
+    "author": "TomPelissero",
+    "text": "The NFL fined Bengals WR Ja'Marr Chase $25,000 for unsportsmanlike conduct on Sunday, per the league's weekly discipline report.",
+    "expect": [
+      "discipline"
+    ],
+    "label": false
+  },
+  {
+    "id": "league-news-no-topic",
+    "author": "AdamSchefter",
+    "text": "NFL owners voted today to approve the sale of a 10% stake in the Philadelphia Eagles, sources tell ESPN.",
+    "expect": [
+      "all-news"
+    ],
+    "label": false,
+    "note": "Newsworthy but fits no topic channel: all-news only."
+  },
+  {
+    "id": "label-word-wow",
+    "author": "RapSheet",
+    "text": "Wow. The #Bears have fired head coach Ben Johnson, sources say.",
+    "expect": [
+      "breaking",
+      "transactions"
+    ],
+    "label": true,
+    "note": "Wording outside the classic label list still flags breaking."
+  },
+  {
+    "id": "routine-here-we-go",
+    "author": "RapSheet",
+    "text": "Here we go: #Ravens QB Lamar Jackson was a full participant in practice today.",
+    "expect": [
+      "injuries"
+    ],
+    "label": false,
+    "note": "Routine framing isn't a breaking label."
+  },
+  {
+    "id": "hypothetical-blockbuster-not-label",
+    "author": "TomPelissero",
+    "text": "Three days before the NFL trade deadline, the most likely destination for Colts RB Jonathan Taylor is … staying in Indianapolis. And only the type of blockbuster offer no team has made could pry him out.\n\nTrade info galore in The Sweep Insider Notebook: https://tompelissero.substack.com/p/six-biggest-questions-before-nfl-trade-deadline-jonathan-taylor-kirk-cousins",
+    "label": false,
+    "expect": [
+      "rumors"
+    ],
+    "also_ok": [
+      []
+    ],
+    "note": "Real post (Nov 7, 2026). 'blockbuster offer' is a hypothetical, not a label; misclassified as breaking before."
+  }
+]
